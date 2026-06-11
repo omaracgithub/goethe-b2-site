@@ -70,9 +70,11 @@
         </div>
 
         <div class="hero-visual reveal reveal-delay">
-          <div class="device-frame device-phone has-shot">
-            <figure class="screenshot-placeholder"><img src="/assets/screenshots/home.png" alt="App home" loading="lazy" /></figure>
+          <div class="device-frame device-phone has-quiz">
+            <div class="demo-quiz" id="demo-quiz" data-question='{"passage": "Immer mehr Unternehmen bieten ihren Mitarbeitern an, im Homeoffice zu arbeiten. Studien zeigen, dass die Produktivität dabei häufig steigt, weil Ablenkungen im Büro wegfallen. Allerdings klagen manche Beschäftigte über fehlenden sozialen Kontakt und Schwierigkeiten, Arbeit und Privatleben klar zu trennen.", "question": "Welche Aussage entspricht dem Text?", "options": [{"text": "Homeoffice führt bei allen Mitarbeitern zu weniger Leistung."}, {"text": "Heimarbeit kann die Produktivität erhöhen, hat aber auch Nachteile."}, {"text": "Unternehmen verbieten zunehmend das Arbeiten von zu Hause."}], "correct": 1, "explanationCorrect": "Der Text nennt sowohl einen Vorteil (höhere Produktivität durch weniger Ablenkung) als auch Nachteile (fehlender Kontakt, schwierige Trennung von Arbeit und Privatleben).", "explanationWrong": "Der Text sagt das Gegenteil: Die Produktivität steigt oft, und Unternehmen bieten Homeoffice zunehmend an — sie verbieten es nicht."}'>
+            </div>
           </div>
+          <p class="demo-quiz__hint">Try a sample question — tap an answer.</p>
         </div>
       </div>
     </section>
@@ -380,5 +382,6 @@
   </footer>
 
   <script src="/js/main.js"></script>
+  <script src="/js/demo-quiz.js"></script>
 </body>
 </html>
